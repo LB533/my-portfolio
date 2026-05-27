@@ -113,7 +113,7 @@
             <h3>GitHub</h3>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/LB533"
               target="_blank"
             >
               https://github.com/LB533
