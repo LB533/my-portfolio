@@ -94,7 +94,7 @@
             <h3>LinkedIn</h3>
 
             <a
-              href="www.linkedin.com/in/lucas-bouquain-440ab6411"
+              href="https://www.linkedin.com/in/lucas-bouquain-440ab6411"
               target="_blank"
             >
               linkedin.com/in/myprofile
