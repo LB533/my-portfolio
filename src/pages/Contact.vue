@@ -94,10 +94,10 @@
             <h3>LinkedIn</h3>
 
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="www.linkedin.com/in/lucas-bouquain-440ab6411"
               target="_blank"
             >
-              linkedin.com/in/yourprofile
+              linkedin.com/in/myprofile
             </a>
 
           </div>
@@ -116,7 +116,7 @@
               href="https://github.com/yourusername"
               target="_blank"
             >
-              github.com/yourusername
+              https://github.com/LB533
             </a>
 
           </div>
