@@ -105,7 +105,17 @@
 
           <div class="skill-card">
             <img :src="ivue" alt="Vue" class="image" />
-            <span>Vue.js</span>
+            <span>Vue</span>
+          </div>
+
+          <div class="skill-card">
+            <img :src="dock" alt="Docker" class="image" />
+            <span>Docker</span>
+          </div>
+
+          <div class="skill-card">
+            <img :src="jup" alt="Jupyter Notebook" class="image" />
+            <span>Jupyter Notebook</span>
           </div>
 
         </div>
@@ -179,6 +189,8 @@ import ipy from '../assets/Python.png'
 import ire from '../assets/React.png'
 import isql from '../assets/SQL.png'
 import ivue from '../assets/Vue.png'
+import dock from '../assets/Docker.png'
+import jup from '../assets/Jupyter_Notebook.png'
 
 export default {
   name: 'About',
@@ -191,7 +203,9 @@ export default {
       ipy,
       ire,
       isql,
-      ivue
+      ivue,
+      dock,
+      jup
     }
   }
 }
