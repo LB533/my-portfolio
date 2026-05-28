@@ -1,5 +1,5 @@
 
-```vue
+
 <template>
   <div class="page">
 
@@ -136,16 +136,16 @@
           </div>
 
           <div class="project-card">
-            <h3>Fantasy RPG Prototype</h3>
+            <h3>Virtual Agenda</h3>
             <p>
-              Experimental game systems inspired by RPG mechanics and immersive worlds.
+              Website made in order for people to track their own day - to -day projects
             </p>
           </div>
 
           <div class="project-card">
-            <h3>Portfolio Website</h3>
+            <h3>Notebook NextBuy</h3>
             <p>
-              Responsive cosmic-themed portfolio built with Vue.js.
+              Notebook to better understand data and make choices.
             </p>
           </div>
 
