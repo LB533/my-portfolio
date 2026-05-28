@@ -259,7 +259,7 @@ import waterapi from '../assets/WaterAPI.png'
 import weatherapi from '../assets/WeatherAPI.png'
 
 import ExempleGraphiques from '../assets/ExempleGraphiques.png'
-import NextBuyIntro from '../assets/ExempleGraphiques.png'
+import NextBuyIntro from '../assets/NextBuyIntro.png'
 import ProductRecommand from '../assets/ProductRecommand.png'
 
 export default {
