@@ -177,6 +177,65 @@
 
       </section>
 
+        <section class="project-box">
+
+        <div class="project-header">
+          <div>
+            <h2>Notebook NextBuy</h2>
+            <span class="project-type">Models and Graps</span>
+          </div>
+
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>JupyterNotebook</span>
+            <span>SKLEARN</span>
+          </div>
+        </div>
+
+        <div class="carousel">
+
+          <transition name="fade" mode="out-in">
+            <img
+              :key="imagesagain[anothercurrentIndex]"
+              :src="imagesagain[anothercurrentIndex]"
+              class="carousel-image"
+            />
+          </transition>
+
+          <button class="carousel-btn left" @click="previous">
+            ‹
+          </button>
+
+          <button class="carousel-btn right" @click="nextious">
+            ›
+          </button>
+
+          <div class="carousel-dots">
+            <span
+              v-for="(image, index) in imagesagain"
+              :key="index"
+              :class="['dot', { active: anothercurrentIndex === index }]"
+              @click="anothercurrentIndex = index"
+            ></span>
+          </div>
+
+        </div>
+
+
+        <div class="project-content">
+
+          <p>
+            This project provides information in the form of a notebook, to better understand data and how it can be interpreted.
+          </p>
+
+          <p>
+            The application demonstrates Model Integration, Structured Information, and Choice facilitation.
+          </p>
+
+        </div>
+
+      </section>
+
     </main>
 
   </div>
@@ -199,6 +258,10 @@ import homeapi from '../assets/HomeAPI.png'
 import waterapi from '../assets/WaterAPI.png'
 import weatherapi from '../assets/WeatherAPI.png'
 
+import ExempleGraphiques from '../assets/ExempleGraphiques.png'
+import NextBuyIntro from '../assets/ExempleGraphiques.png'
+import ProductRecommand from '../assets/ProductRecommand.png'
+
 export default {
   name: 'Projects',
 
@@ -220,8 +283,16 @@ export default {
         weatherapi
       ],
 
+      imagesagain: [
+        ExempleGraphiques,
+        NextBuyIntro,
+        ProductRecommand
+
+      ],
+
       currentIndex: 0,
-      othercurrentIndex: 0
+      othercurrentIndex: 0,
+      anothercurrentIndex: 0
     }
   },
 
@@ -248,6 +319,18 @@ export default {
       this.othercurrentIndex =
         (this.othercurrentIndex - 1 + this.otherimages.length)
         % this.otherimages.length
+    },
+
+    nextagain() {
+      this.anothercurrentIndex =
+        (this.anothercurrentIndex + 1)
+        % this.imagesagain.length
+    },
+
+    prevagain() {
+      this.anothercurrentIndex =
+        (this.anothercurrentIndex - 1 + this.imagesagain.length)
+        % this.imagesagain.length
     }
   }
 }
