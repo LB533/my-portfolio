@@ -182,7 +182,7 @@
         <div class="project-header">
           <div>
             <h2>Notebook NextBuy</h2>
-            <span class="project-type">Models and Graps</span>
+            <span class="project-type">Models and Graphs</span>
           </div>
 
           <div class="tech-stack">
@@ -202,11 +202,11 @@
             />
           </transition>
 
-          <button class="carousel-btn left" @click="previous">
+          <button class="carousel-btn left" @click="prevagain">
             ‹
           </button>
 
-          <button class="carousel-btn right" @click="nextious">
+          <button class="carousel-btn right" @click="nextagain">
             ›
           </button>
 
